@@ -1,8 +1,8 @@
 <img src="doc\EaSFE.jpg" alt="EaSFE" width= "100%">
 
-# EaSFE: 高效且可扩展的自动化特征构造
+# EaSFE: 高效且可扩展的自动化特征工程
 
-EaSFE是一个用`C++17`实现，支持大数据集（超过单机内存）的高效自动特征构造方法，得益于[ThunderSVM](https://github.com/Xtra-Computing/thundersvm)的工作，EaSFE也支持稀疏数据集（[libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/)）。另外， 感谢[csv2](https://github.com/p-ranav/csv2)， [easyloggingpp](https://github.com/abumq/easyloggingpp)， [json](https://github.com/nlohmann/json)开源工具。
+EaSFE是一个用`C++17`实现，支持大数据集（超过单机内存）的高效自动特征工程方法，得益于[ThunderSVM](https://github.com/Xtra-Computing/thundersvm)的工作，EaSFE也支持稀疏数据集（[libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/)）。另外， 感谢[csv2](https://github.com/p-ranav/csv2)， [easyloggingpp](https://github.com/abumq/easyloggingpp)， [json](https://github.com/nlohmann/json)开源工具。
 
 [English](README.md)
 

@@ -1,8 +1,8 @@
 <img src="doc\EaSFE.jpg" alt="EaSFE" width="100%">
 
-# EaSFE: Efficient and Scalable Automatic Feature Construction 
+# EaSFE: Efficient and Scalable Automatic Feature Engineering 
 
-EaSFE is an efficient automatic feature construction method for large datasets (larger than a single machine's memory), written in C++17. EaSFE also supports the sparse  [datasets](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/). In addition, thanks to [csv2](https://github.com/p-ranav/csv2), [easyloggingpp](https://github.com/abumq/easyloggingpp), [json](https://github.com/nlohmann/json) Open source tools.
+EaSFE is an efficient automatic feature engineering method for large datasets (larger than a single machine's memory), written in C++17. EaSFE also supports the sparse  [datasets](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/). In addition, thanks to [csv2](https://github.com/p-ranav/csv2), [easyloggingpp](https://github.com/abumq/easyloggingpp), [json](https://github.com/nlohmann/json) Open source tools.
 
  [Chinese](README_zh.md) 
 
