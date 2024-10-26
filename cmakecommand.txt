@@ -1,0 +1,13 @@
+1: windows
+mkdir build
+cd build
+cmake ..  -DCMAKE_INSTALL_PREFIX="./" -DUSE_MPICH=ON -DUSE_MPICH=ON -D_LIGHTGBM_INCLUDE_DIRS=E:/dict/code/SCUT/EaSFE/dep/LightGBM/build/include/ -D_LIGHTGBM_LIBRARIES=E:/dict/code/SCUT/EaSFE/dep/LightGBM/build/lib/
+Build in VS
+2: linux & macos
+mkdir build
+cd build
+Release: 
+cmake .. -DCMAKE_INSTALL_PREFIX=$ZZROOT -DUSE_MPICH=ON -D_LIGHTGBM_INCLUDE_DIRS=/home/Zhengzy/code/C++/EaSFE/dep/LightGBM/build/include/ -D_LIGHTGBM_LIBRARIES=/home/Zhengzy/code/C++/EaSFE/dep/LightGBM/build/lib/
+Debug:
+cmake .. -DCMAKE_INSTALL_PREFIX=./ -DUSE_MPICH=ON -D_LIGHTGBM_INCLUDE_DIRS=/home/Zhengzy/code/C++/EaSFE/dep/LightGBM/Debug/include/ -D_LIGHTGBM_LIBRARIES=/home/Zhengzy/code/C++/EaSFE/dep/LightGBM/Debug/lib/ -DCMAKE_BUILD_TYPE=Debug
+make install -j8
